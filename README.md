@@ -11,6 +11,21 @@ Flow matching learns to transport samples from a simple source distribution (e.g
 
 ## Notebooks
 
+### Interactive Notebooks (with exercises)
+
+If you prefer to code along and implement some parts yourself, start here:
+
+| Notebook | Description | Colab |
+|----------|-------------|-------|
+| **[Flow Matching Basics](notebooks_w_excercises/01_flow_matching_basics.ipynb)** | Introduction to flow matching with straight-line interpolation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JChemseddine/fm_tutorial/blob/main/notebooks_w_excercises/01_flow_matching_basics.ipynb) |
+| **[Optimal Transport Pairing](notebooks_w_excercises/02_minibatch_ot.ipynb)** | Improve training efficiency with optimal transport couplings | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JChemseddine/fm_tutorial/blob/main/notebooks_w_excercises/02_minibatch_ot.ipynb) |
+| **[Latent Distribution Choice](notebooks_w_excercises/03_latent_choice.ipynb)** | Explore componentwise noise adaptation to target geometry | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JChemseddine/fm_tutorial/blob/main/notebooks_w_excercises/03_latent_choice.ipynb) |
+| **[Conditional Sampling](notebooks_w_excercises/04_conditional_sampling.ipynb)** | Learn conditional generation with Y-penalized optimal transport | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JChemseddine/fm_tutorial/blob/main/notebooks_w_excercises/04_conditional_sampling.ipynb) |
+
+### Complete Notebooks (ready to run)
+
+If you prefer to explore the concepts without coding exercises, use these:
+
 | Notebook | Description | Colab |
 |----------|-------------|-------|
 | **[Flow Matching Basics](notebooks/01_flow_matching_basics.ipynb)** | Introduction to flow matching with straight-line interpolation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JChemseddine/fm_tutorial/blob/main/notebooks/01_flow_matching_basics.ipynb) |
