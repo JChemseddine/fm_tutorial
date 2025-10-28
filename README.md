@@ -39,7 +39,7 @@ jupyter notebook
 
 ## Lectures
 
-The tutorial is accompanied by a series of lectures by Prof. Dr. Gabriele Steidl (https://page.math.tu-berlin.de/~steidl/):
+The tutorial is accompanies a series of lectures by Prof. Dr. Gabriele Steidl (https://page.math.tu-berlin.de/~steidl/):
 
 
 | Lecture | Topic | PDF |
@@ -49,7 +49,7 @@ The tutorial is accompanied by a series of lectures by Prof. Dr. Gabriele Steidl
 | **Lecture 3** | 1D Processes and Noise Adaptation | [3_HS_AMSTERDAM_1D.pdf](lectures/3_HS_AMSTERDAM_1D.pdf) |
 | **Lecture 4** | Bayesian Inference and Conditional Flow Matching | [4_HS_AMSTERDAM_Bayesian.pdf](lectures/4_HS_AMSTERDAM_Bayesian.pdf) |
 
-These lectures provide the mathematical background and theory that complements the hands-on notebooks.
+These lectures provide the mathematical background and theory for the hands-on notebooks.
 
 ---
 
@@ -69,6 +69,8 @@ These lectures provide the mathematical background and theory that complements t
 - Flow Matching for Generative Modeling — Lipman et al., ICLR 2023 | [arXiv:2210.02747](https://arxiv.org/abs/2210.02747)
 - Building Normalizing Flows with Stochastic Interpolants — Albergo et al., ICLR 2023 | [arXiv:2209.15571](https://arxiv.org/abs/2209.15571)
 - Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow — Liu et al., ICLR 2023 | [arXiv:2209.03003](https://arxiv.org/abs/2209.03003)
+-Improving and generalizing flow-based generative models with minibatch optimal transport - Tong et al., 2023 | [arXiv:2302.00482](https://arxiv.org/abs/2302.00482)
+   - Basis for the minibatch OT notebook.
 - Heavy-Tailed Diffusion Models — Pandey et al., 2024 | [arXiv:2410.14171](https://arxiv.org/abs/2410.14171)
    - Inspired notebook latent_choice.
 
