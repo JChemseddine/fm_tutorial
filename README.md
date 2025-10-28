@@ -39,7 +39,8 @@ jupyter notebook
 
 ## Lectures
 
-The tutorial is accompanied by a series of lecture slides covering the theoretical foundations:
+The tutorial is accompanied by a series of lectures by Prof. Dr. Gabriele Steidl (https://page.math.tu-berlin.de/~steidl/):
+
 
 | Lecture | Topic | PDF |
 |---------|-------|-----|
