@@ -1,0 +1,6 @@
+# This file ensures the figures directory is tracked by git
+# Add your visualization images here:
+# - flow_overview.png
+# - basic_flow.png
+# - ot_comparison.png
+# - latent_choice.png
