@@ -13,7 +13,7 @@ Flow matching learns to transport samples from a simple source distribution (e.g
 
 ### Interactive Notebooks (with exercises)
 
-If you prefer to code along and implement some parts yourself, start here:
+If you prefer to code along and implement some small parts yourself, start here:
 
 | Notebook | Description | Colab |
 |----------|-------------|-------|
@@ -24,7 +24,7 @@ If you prefer to code along and implement some parts yourself, start here:
 
 ### Complete Notebooks (ready to run)
 
-If you prefer to explore the concepts without coding exercises, use these:
+If you prefer to explore the concepts directly, use these:
 
 | Notebook | Description | Colab |
 |----------|-------------|-------|
