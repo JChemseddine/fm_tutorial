@@ -81,7 +81,7 @@ These lectures provide the mathematical background and theory for the hands-on n
    - Used in the latent choice notebook.
 3. Conditional Wasserstein Distances with Applications in Bayesian OT Flow Matching — Jannis Chemseddine, Paul Hagemann, Gabriele Steidl, Christian Wald, 2024 |[arXiv:2403.18705](https://arxiv.org/abs/2403.18705)
     - Used in the conditional sampling notebook.
-4. Spherical Flows for Sampling Discrete Distributions — 2026 | [arXiv:2605.05629](https://arxiv.org/abs/2605.05629)
+4. Spherical Flows for Sampling Categorical Data — 2026 | [arXiv:2605.05629](https://arxiv.org/abs/2605.05629)
     - Used in notebook 05. Pretrained checkpoints are hosted on Hugging Face Hub at [Jugc/fm-tutorial](https://huggingface.co/Jugc/fm-tutorial); 100 held-out Sudoku-Extreme puzzles ship with the repo at `data/sudoku_extreme_100.npz`. The inference code in `flows_categorical/` is copied (with attribution) from the paper's source repo.
 
 ### Related Work

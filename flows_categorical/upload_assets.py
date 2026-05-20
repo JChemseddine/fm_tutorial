@@ -63,7 +63,7 @@ def cmd_bundle(args):
         "- `masked_p1/checkpoint.pt` — masked diffusion baseline (MDLM-style)\n\n"
         "Each `.pt` is a torch.save dict with keys `model_state_dict`, "
         "`ema_state_dict`, `config`, `step`, and (for vmf) `warp_state`.\n\n"
-        "Source: *Spherical Flows for Sampling Discrete Distributions* "
+        "Source: *Spherical Flows for Sampling Categorical Data* "
         "([arXiv:2605.05629](https://arxiv.org/abs/2605.05629)).\n"
     )
     print(f"Bundle ready at {out}/")
