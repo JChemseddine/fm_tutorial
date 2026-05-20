@@ -397,8 +397,14 @@ class SphericalODESampler:
             if return_intermediates:
                 kappa_next = kappa_grid[step_idx + 1]
                 kappa_snap = kappa_next.mean().item() if kappa_next.dim() >= 1 else kappa_next.item()
+                # Snapshot logits at the current state h (one fwd pass, with proper
+                # clue_mask + sigma so the model sees the same context as the sampler).
+                h_prime_snap = self.model(h, clue_mask=clue_mask,
+                                          sigma=self._sigma(kappa_snap, h.shape[0]))
+                logits_snap = self.model.compute_logits(h_prime_snap, W_E=W_E)
                 intermediates.append({
                     'h_t': h.detach().clone(),
+                    'logits': logits_snap.detach().clone(),
                     'kappa': kappa_snap,
                     'step': step_idx + 1,
                     'time': (step_idx + 1) / S,

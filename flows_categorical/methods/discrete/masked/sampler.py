@@ -122,8 +122,11 @@ class MaskedFlowSampler:
                 x[clue_mask] = clue_values[clue_mask]
 
             if return_intermediates:
+                # Snapshot logits at the current state (with clue_mask so context matches the sampler).
+                logits_snap = self.model(x, clue_mask=clue_mask)
                 intermediates.append({
                     'x_t': x.detach().clone(),
+                    'logits': logits_snap.detach().clone(),
                     'step': step_idx + 1,
                     'time': (t - dt).clamp(min=0).item(),
                     'mask_rate': (x == self.mask_token_id).float().mean().item(),
