@@ -1,7 +1,7 @@
 """Bundle the checkpoints from `networks/` into a HuggingFace Hub layout and push.
 
 Notebook `notebooks/05_continuous_discrete_sudoku.ipynb` falls back to HF Hub
-`JChemseddine/fm-tutorial` when local `networks/` checkpoints are missing. This
+`Jugc/fm-tutorial` when local `networks/` checkpoints are missing. This
 script prepares + pushes that HF repo.
 
 Local layout (input):
@@ -13,7 +13,7 @@ Local layout (input):
 
 HF Hub layout (output):
 
-    JChemseddine/fm-tutorial/
+    Jugc/fm-tutorial/
     ├── vmf_d11_p1/checkpoint.pt
     ├── vmf_tc_d11_p1/checkpoint.pt
     └── masked_p1/checkpoint.pt
@@ -94,7 +94,7 @@ def main():
 
     pu = sub.add_parser("push", help="Push a staged bundle to HF Hub")
     pu.add_argument("--bundle-dir", default="./hf_bundle")
-    pu.add_argument("--repo", default="JChemseddine/fm-tutorial")
+    pu.add_argument("--repo", default="Jugc/fm-tutorial")
     pu.set_defaults(func=cmd_push)
 
     args = p.parse_args()
