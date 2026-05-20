@@ -1,0 +1,11 @@
+# Local-only large checkpoints (uploaded separately to HF Hub for the tutorial)
+networks/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+
+# Local bundles staged for HF Hub upload
+hf_bundle/

@@ -22,6 +22,8 @@ If you prefer to code along and implement some small parts yourself, start here:
 | **[Latent Distribution Choice](notebooks_w_excercises/03_latent_choice.ipynb)** | Explore componentwise noise adaptation to target geometry | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JChemseddine/fm_tutorial/blob/main/notebooks_w_excercises/03_latent_choice.ipynb) |
 | **[Conditional Sampling](notebooks_w_excercises/04_conditional_sampling.ipynb)** | Learn conditional generation with conditional optimal transport | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JChemseddine/fm_tutorial/blob/main/notebooks_w_excercises/04_conditional_sampling.ipynb) |
 
+> Notebook **05** (continuous flows for discrete data, see below) is inference-only and has no exercises variant.
+
 ### Complete Notebooks (ready to run)
 
 If you prefer to explore the concepts directly, use these:
@@ -32,6 +34,7 @@ If you prefer to explore the concepts directly, use these:
 | **[Optimal Transport Pairing](notebooks/02_minibatch_ot.ipynb)** | Improve training efficiency with optimal transport couplings | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JChemseddine/fm_tutorial/blob/main/notebooks/02_minibatch_ot.ipynb) |
 | **[Latent Distribution Choice](notebooks/03_latent_choice.ipynb)** | Explore componentwise noise adaptation to target geometry | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JChemseddine/fm_tutorial/blob/main/notebooks/03_latent_choice.ipynb) |
 | **[Conditional Sampling](notebooks/04_conditional_sampling.ipynb)** | Learn conditional generation with conditional optimal transport | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JChemseddine/fm_tutorial/blob/main/notebooks/04_conditional_sampling.ipynb) |
+| **[Flows for Discrete Data (Sudoku)](notebooks/05_continuous_discrete_sudoku.ipynb)** | Inference with pretrained models: three paradigms (ambient VP, spherical vMF, masked) solving Sudoku-Extreme puzzles | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JChemseddine/fm_tutorial/blob/main/notebooks/05_continuous_discrete_sudoku.ipynb) |
 
 ---
 
@@ -78,6 +81,8 @@ These lectures provide the mathematical background and theory for the hands-on n
    - Used in the latent choice notebook.
 3. Conditional Wasserstein Distances with Applications in Bayesian OT Flow Matching — Jannis Chemseddine, Paul Hagemann, Gabriele Steidl, Christian Wald, 2024 |[arXiv:2403.18705](https://arxiv.org/abs/2403.18705)
     - Used in the conditional sampling notebook.
+4. Spherical Flows for Sampling Discrete Distributions — 2026 | [arXiv:2605.05629](https://arxiv.org/abs/2605.05629)
+    - Used in notebook 05. Pretrained checkpoints + held-out Sudoku-Extreme puzzles are hosted on Hugging Face Hub at [JChemseddine/fm-tutorial](https://huggingface.co/JChemseddine/fm-tutorial). The inference code in `flows_categorical/` is copied (with attribution) from the paper's source repo.
 
 ### Related Work
 
