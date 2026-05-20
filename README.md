@@ -89,6 +89,8 @@ These lectures provide the mathematical background and theory for the hands-on n
 - Flow Matching for Generative Modeling — Lipman et al., ICLR 2023 | [arXiv:2210.02747](https://arxiv.org/abs/2210.02747)
 - Building Normalizing Flows with Stochastic Interpolants — Albergo et al., ICLR 2023 | [arXiv:2209.15571](https://arxiv.org/abs/2209.15571)
 - Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow — Liu et al., ICLR 2023 | [arXiv:2209.03003](https://arxiv.org/abs/2209.03003)
+- Continuous Diffusion for Categorical Data (CDCD) — Dieleman et al., 2022 | [arXiv:2211.15089](https://arxiv.org/abs/2211.15089)
+   - Continuous diffusion on unit-norm token embeddings; the setup notebook 05 builds on.
 -Improving and generalizing flow-based generative models with minibatch optimal transport - Tong et al., 2023 | [arXiv:2302.00482](https://arxiv.org/abs/2302.00482)
    - Basis for the minibatch OT notebook.
 - Heavy-Tailed Diffusion Models — Pandey et al., 2024 | [arXiv:2410.14171](https://arxiv.org/abs/2410.14171)
